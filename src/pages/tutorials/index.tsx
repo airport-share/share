@@ -1,3 +1,4 @@
+import Wait from '@/components/Wait';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
@@ -11,7 +12,7 @@ const Tutorials = () => {
         />
       }
     >
-      教程
+      <Wait />
     </Main>
   );
 };

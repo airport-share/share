@@ -14,10 +14,8 @@ const Main = (props: IMainProps) => (
 
     <Nav />
 
-    <div className="mx-auto max-w-screen-xl">
-      <main className="content container mx-auto text-xl">
-        {props.children}
-      </main>
+    <div className="mx-auto max-w-screen-2xl">
+      <main className=" mx-auto text-xl pd">{props.children}</main>
 
       <Footer />
     </div>

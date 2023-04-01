@@ -1,5 +1,4 @@
-import { Carousel } from 'antd';
-
+import Wait from '@/components/Wait';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
@@ -13,14 +12,7 @@ const Index = () => {
         />
       }
     >
-      <div>首页</div>
-      <Carousel autoplay touchMove>
-        {[1, 2, 3, 4].map((item) => (
-          <div className="w-24" key={item}>
-            <h3>{item}</h3>
-          </div>
-        ))}
-      </Carousel>
+      <Wait />
     </Main>
   );
 };
