@@ -8,7 +8,7 @@ function Card1({ name, group, url }: Airport) {
       <div className="flex flex-col items-center pb-10">
         <img
           className="mb-3 h-24 w-24 rounded-full shadow-lg"
-          src={`/assets/avatars/${name}.jpg`}
+          src={`https://cdn.jsdelivr.net/gh/airport-share/share@master/public/assets/avatars/${name}.jpg`}
           alt="Bonnie image"
         />
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
