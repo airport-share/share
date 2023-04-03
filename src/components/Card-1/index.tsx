@@ -2,13 +2,13 @@ import React from 'react';
 
 import type { Airport } from '@/constant';
 
-function Card1({ name, group, url, avatar }: Airport) {
+function Card1({ name, group, url }: Airport) {
   return (
     <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white pt-4 shadow hover:bg-slate-100 dark:border-gray-700 dark:bg-gray-800 md:w-80">
       <div className="flex flex-col items-center pb-10">
         <img
           className="mb-3 h-24 w-24 rounded-full shadow-lg"
-          src={avatar}
+          src={`/assets/avatars/${name}.jpg`}
           alt="Bonnie image"
         />
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
